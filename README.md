@@ -21,7 +21,7 @@ For more information on available options use `rstudio ls --help`.
 
 ## Using/installing the manager
 
-First you need to set the directory that contains your Bioconductor singularity containers in `rstudio_server_manager/__init__.py`. The only external dependency required is `rich-argparse`, so install it in your current environment. Or change the interpreter in `rstudio-server-manager` to a installation of Python (`>=3.9`) that has `rich-argparse` installed.
+First you need to set the directory that contains your Bioconductor singularity containers in `rstudio_server_manager/__init__.py`. The only external dependency required is `rich-argparse`, so install it in your current environment. Or change the interpreter in `rstudio-server-manager/rstudio` to a installation of Python (`>=3.9`) that has `rich-argparse` installed.
 
 Afterwards, simply add the following line to your profile (e.g. `~/.bash_profile` when using `bash`):
 
